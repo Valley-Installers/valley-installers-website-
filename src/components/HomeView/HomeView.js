@@ -1,11 +1,51 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
+import "./HomeView.css";
 
 function HomeView(props) {
   return (
     <>
       <Header />
+      <div className="laminate-countertops">
+        <div className="countertop-text">
+          <h2> Laminate Countertops</h2>
+          <p className="countertop-sub-text">
+            We specialize in laminate countertops. We use Wilsonart, Formica or
+            Nevamar laminate giving you a wide range of selection. We also offer
+            you a variety of edging, from a standard square edge to a beveled
+            edge.
+          </p>
+          <p className="countertop-sub-text">
+            With the Wilsonart HD and the Formica FX lines, your laminate
+            countertops can look like traditional hardsurface tops at a fraction
+            of the cost.
+          </p>
+          <p className="countertop-sub-text">
+            There are more benefits to laminate that just the price. They are
+            more bacterial and scratch resistant than hardsurface. And you have
+            a greater variety of colors and patterns to choose from.
+          </p>
+          <p className="countertop-sub-text">
+            We are also proud to introduce you to our process of installing
+            undermount sink in laminate. So yes you can have an undermount sink
+            with a laminate top!
+          </p>
+          <p className="countertop-sub-text">
+            When installing the sink under the laminate using a process that
+            leaves a smooth transition between the sink and the top.
+          </p>
+          <p className="countertop-sub-text" id="see-photos">
+            See All Photos {""} →
+          </p>
+        </div>
+        <div className="image-container-laminate-countertops">
+          <img
+            className="countertops-photo"
+            src="https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png"
+          />
+        </div>
+      </div>
       <Footer />
     </>
   );
