@@ -42,3 +42,7 @@
 .about-container p {
   margin: 0;
 }
+
+.image-container-header a {
+  display: none;
+}
