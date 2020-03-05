@@ -11,10 +11,8 @@ function Header(props) {
           <div id="right-header">
             <p id="about-header">About</p>
             <a id="contact-container" href="mailto:valleyinstallers@yahoo.com">
-              {/* <div id="contact-container"> */}
               <i class="far fa-envelope"></i>
               <p id="contact-header">Contact Us</p>
-              {/* </div> */}
             </a>
           </div>
         </div>
