@@ -13,7 +13,7 @@ function App() {
             <HomeView />
           </Route>
           <Route exact path="/about-us">
-            <HomeView />
+            <AboutView />
           </Route>
         </Switch>
       </div>
