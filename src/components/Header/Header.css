@@ -58,19 +58,19 @@ header {
 }
 
 #about-header,
-#contact-header {
+#contact-container p {
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.image-container {
+.image-container-header {
   background-image: url("https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png");
   height: 376px;
   width: 100%;
   font-weight: bold;
 }
 
-.image-container h1 {
+.image-container-header h1 {
   font-size: 42px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -88,7 +88,7 @@ header {
   height: 100%;
 }
 
-.image-container a {
+.image-container-header a {
   font-size: 20px;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -96,7 +96,7 @@ header {
   padding: 10px 0px;
 }
 
-.image-container a:hover {
+.image-container-header a:hover {
   background-color: rgb(255, 255, 255, 0.2);
 }
 

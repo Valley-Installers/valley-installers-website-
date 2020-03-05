@@ -20,7 +20,7 @@ function Header(props) {
         </div>
       </div>
 
-      <div className="image-container">
+      <div className="image-container-header">
         <div id="image-text">
           <h1>Quality Laminte Countertops Serving The Greater Flathead Area</h1>
           <Link to="/about-us">Learn More About Us →</Link>
