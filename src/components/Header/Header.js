@@ -14,7 +14,7 @@ function Header(props) {
             </Link>
             <a id="contact-container" href="mailto:valleyinstallers@yahoo.com">
               <i class="far fa-envelope"></i>
-              <p id="contact-header">Contact Us</p>
+              <p>Contact Us</p>
             </a>
           </div>
         </div>

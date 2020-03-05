@@ -39,6 +39,7 @@ header {
 
 #about-header {
   padding: 14px 15px 13px;
+  border-radius: 1px;
 }
 
 #contact-container:hover,
@@ -47,7 +48,7 @@ header {
   color: black;
 }
 
-#contact-header {
+#contact-container p {
   margin-left: 5px;
 }
 
@@ -89,10 +90,14 @@ header {
 
 .image-container a {
   font-size: 20px;
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   border-radius: 2px;
   width: 260px;
   padding: 10px 0px;
+}
+
+.image-container a:hover {
+  background-color: rgb(255, 255, 255, 0.2);
 }
 
 a {
