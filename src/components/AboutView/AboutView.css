@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: stretch;
   flex-wrap: wrap;
-  width: 940px;
+  width: 1040px;
   margin: 60px auto 0px auto;
   line-height: 1.6em;
   font-weight: 300;
@@ -12,14 +12,14 @@
 }
 
 .about-container img {
-  width: 400px;
+  width: 500px;
   height: 360px;
 }
 
 #about-text-container {
-  width: 380px;
+  width: 400px;
   height: 360px;
-  margin: 0 80px;
+  margin-left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,8 +41,4 @@
 
 .about-container p {
   margin: 0;
-}
-
-.image-container-header a {
-  display: none;
 }
