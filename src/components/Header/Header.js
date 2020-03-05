@@ -9,7 +9,9 @@ function Header(props) {
         <div id="text-container">
           <p id="name-header">Valley Installers</p>
           <div id="right-header">
-            <p id="about-header">About</p>
+            <Link id="about-header" to="/about-us">
+              About
+            </Link>
             <a id="contact-container" href="mailto:valleyinstallers@yahoo.com">
               <i class="far fa-envelope"></i>
               <p id="contact-header">Contact Us</p>

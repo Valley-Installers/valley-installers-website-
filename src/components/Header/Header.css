@@ -29,7 +29,7 @@ header {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  margin-left: 2vw;
+  margin-left: 20px;
   border: 2px solid white;
   border-radius: 3px;
   padding: 0px 15px;
@@ -37,7 +37,12 @@ header {
   color: #ffffff;
 }
 
-#contact-container:hover {
+#about-header {
+  padding: 14px 15px 13px;
+}
+
+#contact-container:hover,
+#about-header:hover {
   background-color: white;
   color: black;
 }
@@ -88,6 +93,9 @@ header {
   border-radius: 2px;
   width: 260px;
   padding: 10px 0px;
+}
+
+a {
   text-decoration: none;
   color: #ffffff;
 }
