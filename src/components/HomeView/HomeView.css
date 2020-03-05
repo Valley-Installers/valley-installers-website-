@@ -17,7 +17,7 @@
 }
 
 .image-container-laminate-countertops img {
-  height: 600px;
+  height: 550px;
   width: inherit;
   margin-left: 15px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.33);
@@ -38,6 +38,7 @@
   font-size: 18px;
   color: #4e4e4e;
   font-weight: 300px;
+  margin: 10px 0px;
 }
 
 .countertop-text h2 {
