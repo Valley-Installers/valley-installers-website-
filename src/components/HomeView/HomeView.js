@@ -7,8 +7,8 @@ function HomeView(props) {
   return (
     <>
       <Header />
-      <div className="laminate-countertops">
-        <div className="countertop-text">
+      <div className="laminate-countertops" className="content-view">
+        <div className="countertop-text" className="col-1">
           <h2> Laminate Countertops</h2>
           <p className="countertop-sub-text">
             We specialize in laminate countertops. We use Wilsonart, Formica or
@@ -39,7 +39,7 @@ function HomeView(props) {
             See All Photos {""} →
           </p>
         </div>
-        <div className="image-container-laminate-countertops">
+        <div className="image-container-laminate-countertops" className="col-2">
           <img
             className="countertops-photo"
             src="https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png"
