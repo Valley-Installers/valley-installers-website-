@@ -8,6 +8,19 @@
   pointer-events: none;
 }
 
+p {
+  font-weight: 300;
+  line-height: 1.6em;
+  font-size: 18px;
+  color: #4e4e4e;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

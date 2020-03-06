@@ -7,14 +7,14 @@ function AboutView(props) {
   return (
     <>
       <Header />
-      <div className="about-container">
-        <div>
+      <div className="about-container" className="content-view">
+        <div className="col-1">
           <img
             alt="placeholder"
             src="https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png"
           />
         </div>
-        <div id="about-text-container">
+        <div id="about-text-container" className="col-2">
           <h2>About Us</h2>
           <p>
             Valley Installers attention to detail and unsurpassed quality has
