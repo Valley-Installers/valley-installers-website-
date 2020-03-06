@@ -7,13 +7,12 @@ function AboutView(props) {
   return (
     <>
       <Header />
-      <div className="about-container" className="content-view">
-        <div className="col-1">
-          <img
-            alt="placeholder"
-            src="https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png"
-          />
-        </div>
+      <div className="content-view">
+        <img
+          className="col-1"
+          alt="placeholder"
+          src="https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png"
+        />
         <div id="about-text-container" className="col-2">
           <h2>About Us</h2>
           <p>
@@ -25,11 +24,11 @@ function AboutView(props) {
           </p>
           <p>Valley Installers are licensed and insured.</p>
         </div>
-        <div className="about-address">
-          <p>
-            Valley Installers, Inc. 955 3rd. St. W.N. Columbia Falls, MT 59912
-          </p>
-        </div>
+      </div>
+      <div className="about-address">
+        <p>Valley Installers, Inc.</p>
+        <p>955 3rd. St. W.N.</p>
+        <p>Columbia Falls, MT 59912</p>
       </div>
       <Footer />
     </>

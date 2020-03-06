@@ -13,6 +13,7 @@ p {
   line-height: 1.6em;
   font-size: 18px;
   color: #4e4e4e;
+  text-align: left;
 }
 
 h2 {
@@ -22,7 +23,7 @@ h2 {
 }
 
 .content-view {
-  margin: 35px 0px 35px 0px;
+  margin: 60px 0px 60px 0px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -35,7 +36,7 @@ h2 {
 }
 .col-2 {
   width: 500px;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
