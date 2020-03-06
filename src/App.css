@@ -8,6 +8,19 @@
   pointer-events: none;
 }
 
+p {
+  font-weight: 300;
+  line-height: 1.6em;
+  font-size: 18px;
+  color: #4e4e4e;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
 .content-view {
   margin: 35px 0px 35px 0px;
   display: flex;
