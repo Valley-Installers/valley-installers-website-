@@ -1,7 +1,6 @@
 .col-2 img {
-  height: 550px;
-  width: 450px;
-  margin-left: 20px;
+  height: 200%;
+  width: inherit;
 }
 
 .countertop-text {

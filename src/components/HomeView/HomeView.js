@@ -31,10 +31,7 @@ function HomeView(props) {
             undermount sink in laminate. So yes you can have an undermount sink
             with a laminate top!
           </p>
-          <p className="countertop-sub-text">
-            When installing the sink under the laminate using a process that
-            leaves a smooth transition between the sink and the top.
-          </p>
+
           <p className="countertop-sub-text" id="see-photos">
             See All Photos {""} →
           </p>
@@ -42,7 +39,7 @@ function HomeView(props) {
         <div className="col-2">
           <img
             className="countertops-photo"
-            src="https://wearemortar.com/wp-content/uploads/2019/09/placeholder.png"
+            src="https://dummyimage.com/500x450/ededed/fcfcfc.jpg"
           />
         </div>
       </div>
