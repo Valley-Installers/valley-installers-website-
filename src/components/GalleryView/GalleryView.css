@@ -1,0 +1,19 @@
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: center;
+  align-content: center;
+}
+.gallery-container img {
+  margin: 10px;
+}
+@media only screen and (max-width: 1071px) {
+  .gallery-container img {
+    width: 380px;
+  }
+  .gallery-container {
+    width: 800px;
+  }
+}
