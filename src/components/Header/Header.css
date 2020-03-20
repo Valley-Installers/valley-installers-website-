@@ -231,10 +231,12 @@ a {
     display: inline;
   }
 }
+
 @media only screen and (max-width: 870px) {
   .image-container-header h1 {
     width: 420px;
-    font-size: 32px;
+    font-size: 36px;
+    line-height: 55px;
   }
 
   #text-container {
@@ -243,7 +245,6 @@ a {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 300px;
   }
 
   .nav {
@@ -256,5 +257,13 @@ a {
 
   #image-text a {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .image-container-header h1 {
+    font-size: 32px;
+    width: 320px;
+    line-height: 40px;
   }
 }
