@@ -7,6 +7,7 @@ function AboutView(props) {
   return (
     <>
       <Header />
+
       <div className="content-view">
         <img
           className="col-1"
