@@ -4,7 +4,6 @@ import HomeView from "./components/HomeView/HomeView";
 import AboutView from "./components/AboutView/AboutView";
 import GalleryView from "./components/GalleryView/GalleryView";
 import "./App.css";
-
 function App() {
   return (
     <BrowserRouter>
