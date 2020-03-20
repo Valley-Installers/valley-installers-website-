@@ -33,7 +33,7 @@ function HomeView(props) {
           </p>
 
           <p className="countertop-sub-text" id="see-photos">
-            See All Photos {""} →
+            <a href="http://localhost:3000/gallery"> See All Photos {""} →</a>
           </p>
         </div>
         <div className="col-2">

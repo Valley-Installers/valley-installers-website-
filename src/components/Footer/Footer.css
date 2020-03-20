@@ -1,5 +1,5 @@
 .contact-footer {
-  height: 80px;
+  padding: 25px 0px;
   background-color: #fafafa;
   display: flex;
   justify-content: center;
@@ -10,6 +10,7 @@
 
 .contact-footer h2 {
   font-size: 20px;
+  font-style: normal;
   font-weight: 300;
   letter-spacing: 2px;
   text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);

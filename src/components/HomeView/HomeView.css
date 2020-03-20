@@ -16,16 +16,28 @@
   margin: 10px 0px;
 }
 
-.countertop-text h2 {
+#countertop-text h2 {
   text-align: start;
   width: inherit;
 }
 
-#see-photos {
+#see-photos a {
   text-align: center;
   width: inherit;
   font-size: 16px;
   color: #4285f4;
   font-weight: bold;
   letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 870px) {
+  #see-photos {
+    padding: 15px 0px;
+  }
+  #countertop-text h2 {
+    margin-top: 0px;
+  }
 }
