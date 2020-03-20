@@ -26,11 +26,6 @@ function AboutView(props) {
           <p>Valley Installers are licensed and insured.</p>
         </div>
       </div>
-      <div className="about-address">
-        <p>Valley Installers, Inc.</p>
-        <p>955 3rd. St. W.N.</p>
-        <p>Columbia Falls, MT 59912</p>
-      </div>
       <Footer />
     </>
   );
