@@ -231,3 +231,30 @@ a {
     display: inline;
   }
 }
+@media only screen and (max-width: 870px) {
+  .image-container-header h1 {
+    width: 420px;
+    font-size: 32px;
+  }
+
+  #text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .nav {
+    height: 120px;
+  }
+
+  #name-header {
+    margin: 0 0 13px 0;
+  }
+
+  #image-text a {
+    display: none;
+  }
+}
