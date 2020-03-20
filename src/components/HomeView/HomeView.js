@@ -39,7 +39,7 @@ function HomeView(props) {
         <div className="col-2">
           <img
             className="countertops-photo"
-            src="https://dummyimage.com/500x400/ededed/fcfcfc.jpg"
+            src="https://i.imgur.com/3SG4Moc.jpg?1"
           />
         </div>
       </div>
