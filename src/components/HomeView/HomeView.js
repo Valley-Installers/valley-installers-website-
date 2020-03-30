@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import "./HomeView.css";
+import { Link } from "react-router-dom";
 
 function HomeView(props) {
   return (
@@ -33,7 +34,9 @@ function HomeView(props) {
           </p>
 
           <p className="countertop-sub-text" id="see-photos">
-            <a href="http://localhost:3000/gallery"> See All Photos {""} →</a>
+            <Link id="see-gallery" to="/gallery">
+              See All Photos →
+            </Link>{" "}
           </p>
         </div>
         <div className="col-2">
